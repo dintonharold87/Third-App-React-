@@ -1,0 +1,81 @@
+@import url("https://fonts.googleapis.com/css?family=Inter:400,700");
+/* Variables */
+root {
+  --black: rgba(0, 0, 0, 1);
+  --turquoise-blue: rgba(97, 218, 251, 1);
+  --link-water: rgba(222, 235, 248, 1);
+  --white: rgba(255, 255, 255, 1);
+
+  --font-size-m: 16px;
+  --font-size-l: 22.3px;
+  --font-size-xl: 39.1px;
+
+  --font-family-inter: "Inter";
+}
+.inter-normal-link-water-16px {
+  color: var(--link-water);
+  font-family: var(--font-family-inter);
+  font-size: var(--font-size-m);
+  font-weight: 400;
+  font-style: normal;
+}
+.inter-normal-white-16px {
+  color: var(--white);
+  font-family: var(--font-family-inter);
+  font-size: var(--font-size-m);
+  font-weight: 400;
+  font-style: normal;
+}
+.inter-bold-white-39-1px {
+  color: var(--white);
+  font-family: var(--font-family-inter);
+  font-size: var(--font-size-xl);
+  font-weight: 700;
+  font-style: normal;
+}
+.inter-bold-turquoise-blue-22-3px {
+  color: var(--turquoise-blue);
+  font-family: var(--font-family-inter);
+  font-size: var(--font-size-l);
+  font-weight: 700;
+  font-style: normal;
+}
+.frame-4 {
+  display: flex;
+  align-items: center;
+  background-color: #21222a;
+
+  height: 91px;
+  min-width: 550px;
+  padding: 0 26px;
+}
+
+.frame-3 {
+  display: flex;
+  align-items: flex-start;
+
+  min-width: 157px;
+}
+
+.reactjs-icon {
+  height: 29px;
+  margin-top: 0;
+  width: 29px;
+}
+
+.react-facts {
+  letter-spacing: -1.11px;
+  margin-left: 6px;
+  min-height: 22px;
+  width: 122px;
+}
+
+.extra-title {
+  letter-spacing: 0;
+  margin-left: 82px;
+  min-height: 21px;
+  text-align: right;
+  width: 259px;
+}
+
+
