@@ -4,4 +4,234 @@
 body {
   margin: 0;
   padding: 0;
+  background-color:#282d35;
+  background-image: url(./Group.png);
+  background-repeat: no-repeat;
+  background-position:right center;
+}
+/* Variables */
+root {
+  --black: rgba(0, 0, 0, 1);
+  --turquoise-blue: rgba(97, 218, 251, 1);
+  --link-water: rgba(222, 235, 248, 1);
+  --white: rgba(255, 255, 255, 1);
+
+  --font-size-m: 16px;
+  --font-size-l: 22.3px;
+  --font-size-xl: 39.1px;
+
+  --font-family-inter: "Inter";
+}
+.inter-normal-link-water-16px {
+  color: var(--link-water);
+  font-family: var(--font-family-inter);
+  font-size: var(--font-size-m);
+  font-weight: 400;
+  font-style: normal;
+}
+.inter-normal-white-16px {
+  color: var(--white);
+  font-family: var(--font-family-inter);
+  font-size: var(--font-size-m);
+  font-weight: 400;
+  font-style: normal;
+}
+.inter-bold-white-39-1px {
+  color: var(--white);
+  font-family: var(--font-family-inter);
+  font-size: var(--font-size-xl);
+  font-weight: 700;
+  font-style: normal;
+}
+.inter-bold-turquoise-blue-22-3px {
+  color: var(--turquoise-blue);
+  font-family: var(--font-family-inter);
+  font-size: var(--font-size-l);
+  font-weight: 700;
+  font-style: normal;
+}
+.frame-4 {
+  display: flex;
+  align-items: center;
+  background-color: #21222a;
+  height: 91px;
+  /* min-width: 550px; */
+  padding: 0 26px;
+}
+
+.frame-3 {
+  display: flex;
+  align-items: flex-start;
+
+  min-width: 157px;
+}
+
+.reactjs-icon {
+  height: 29px;
+  margin-top: 0;
+  width: 29px;
+}
+
+.react-facts {
+  letter-spacing: -1.11px;
+  margin-left: 6px;
+  min-height: 22px;
+  width: 122px;
+}
+
+.extra-title {
+  letter-spacing: 0;
+  margin-left: 82px;
+  min-height: 21px;
+  text-align: right;
+  width: 259px;
+}
+.frame-12 {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  min-height: 422px;
+  width: 550px;
+}
+
+.frame-4 {
+  align-items: center;
+  background-color: 
+#21222a;
+  display: flex;
+  height: 91px;
+  min-width: 550px;
+  padding: 0 26px;
+}
+
+.frame-3 {
+  align-items: flex-start;
+  display: flex;
+  min-width: 157px;
+}
+
+.reactjs-icon {
+  height: 29px;
+  margin-top: 0;
+  width: 29px;
+}
+
+.react-facts {
+  letter-spacing: -1.11px;
+  margin-left: 6px;
+  min-height: 22px;
+  width: 122px;
+}
+
+.extra-title {
+  letter-spacing: 0;
+  margin-left: 82px;
+  min-height: 21px;
+  text-align: right;
+  width: 259px;
+}
+
+.frame-11 {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  margin-top: 59px;
+  min-height: 272px;
+  width: 482px;
+}
+
+.h1-title {
+  letter-spacing: -1.95px;
+  min-height: 41px;
+  width: 424px;
+}
+
+.frame-10 {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  margin-top: 36px;
+  min-height: 195px;
+  width: 482px;
+}
+
+.frame-5 {
+  align-items: center;
+  display: flex;
+  height: 19px;
+  min-width: 218px;
+}
+
+.ellipse-1 {
+  background-color: var(--turquoise-blue);
+  border-radius: 4.8px;
+  height: 10px;
+  width: 10px;
+}
+
+.was-first-released-in-2013 {
+  letter-spacing: 0;
+  margin-left: 13px;
+  min-height: 19px;
+  min-width: 195px;
+}
+
+.frame-6 {
+  align-items: center;
+  display: flex;
+  height: 19px;
+  margin-top: 20px;
+  min-width: 319px;
+}
+
+.was-originally-created-by-jordan-walke {
+  letter-spacing: 0;
+  margin-left: 13px;
+  min-height: 19px;
+  min-width: 296px;
+}
+
+.frame-7 {
+  align-items: center;
+  display: flex;
+  height: 19px;
+  margin-top: 20px;
+  min-width: 290px;
+}
+
+.has-well-over-100-k-stars-on-git-hub {
+  letter-spacing: 0;
+  margin-left: 13px;
+  min-height: 19px;
+  min-width: 267px;
+}
+
+.frame-8 {
+  align-items: center;
+  display: flex;
+  height: 19px;
+  margin-top: 20px;
+  min-width: 226px;
+}
+
+.is-maintained-by-facebook {
+  letter-spacing: 0;
+  margin-left: 13px;
+  min-height: 19px;
+  min-width: 203px;
+}
+
+.frame-9 {
+  align-items: flex-start;
+  display: flex;
+  height: 38px;
+  margin-top: 20px;
+  min-width: 442px;
+}
+
+.surname {
+  letter-spacing: 0;
+  margin-left: 13px;
+  min-height: 38px;
+  width: 373px;
 }

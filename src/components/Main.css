@@ -1,3 +1,17 @@
+@import url("https://fonts.googleapis.com/css?family=Inter:400,700");
+/* Variables */
+root {
+  --black: rgba(0, 0, 0, 1);
+  --turquoise-blue: rgba(97, 218, 251, 1);
+  --link-water: rgba(222, 235, 248, 1);
+  --white: rgba(255, 255, 255, 1);
+
+  --font-size-m: 16px;
+  --font-size-l: 22.3px;
+  --font-size-xl: 39.1px;
+
+  --font-family-inter: "Inter";
+}
 .frame-12 {
   align-items: center;
   display: flex;
@@ -72,6 +86,7 @@
   display: flex;
   height: 19px;
   min-width: 218px;
+  
 }
 
 .ellipse-1 {
@@ -79,6 +94,7 @@
   border-radius: 4.8px;
   height: 10px;
   width: 10px;
+  margin-right: 20px;
 }
 
 .was-first-released-in-2013 {
